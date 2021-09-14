@@ -16,7 +16,7 @@ describe('Task api check',function(){
         chai.request(server)
         .get('/api/v1/employees')
         .end((err,response)=>{
-            expect(response.status).to.be.equal(200)
+            expect(response.status).to.be.equal(429)
             done();
 
         })
