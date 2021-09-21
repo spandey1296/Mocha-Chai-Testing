@@ -9,8 +9,7 @@
     "test-single": "mocha",
     "test-report": "mocha 'test-cases/**/*.spec.js' --reporter mochawesome --require mochawesome/register",
     "test-report2": "mocha 'test-cases/**/*.spec.js' --reporter mochawesome --reporter-options reportDir=Report, reportFilename=Testcase_Report",
-    "coverage":"nyc --reporter=lcov --reporter=text npm run test"
-  
+    "coverage": "nyc --reporter=lcov --reporter=text npm run test"
   },
   "keywords": [],
   "author": "",

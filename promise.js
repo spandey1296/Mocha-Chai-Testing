@@ -17,9 +17,6 @@ let data= fetch("https://dummy.restapiexample.com/api/v1/employees")
 // console.warn(data);
 // console.log(data);
 
-
-
-
 data.then((item)=>{
   return item.json()
 }).then((result)=>{
